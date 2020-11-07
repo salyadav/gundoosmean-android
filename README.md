@@ -8,9 +8,9 @@ Merge package.json from gundoosmean-client to package.json here
 
 Add cordova plugins:
 
-`cordova plugin add cordova-plugin-device`
-`cordova plugin add cordova-plugin-whitelist`
-`cordova plugin add cordova-android`
+ 1. `cordova plugin add cordova-plugin-device`
+ 2. `cordova plugin add cordova-plugin-whitelist`
+ 3. `cordova plugin add cordova-android`
 
 Save the plugin setting:
 
@@ -18,9 +18,11 @@ Save the plugin setting:
 
 To remove platform:
 (In order to rebuild ios platform)
+
 `cordova platform rm ios`
 
 To add platform: 
+
 `cordova platform add ios`
 
 To point `dist` folder built by the parcel build command to `www` publish folder mandated for android app to pick from:
